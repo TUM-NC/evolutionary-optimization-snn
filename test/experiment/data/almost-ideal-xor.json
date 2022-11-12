@@ -1,0 +1,85 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "neuron_type": "input",
+      "threshold": 103,
+      "id": 0
+    },
+    {
+      "neuron_type": "input",
+      "threshold": 25,
+      "id": 1
+    },
+    {
+      "neuron_type": "output",
+      "threshold": 27,
+      "id": 2
+    },
+    {
+      "neuron_type": "hidden",
+      "threshold": 32,
+      "id": 282
+    }
+  ],
+  "links": [
+    {
+      "weight": 55,
+      "delay": 15,
+      "exciting": true,
+      "source": 0,
+      "target": 2
+    },
+    {
+      "weight": 95,
+      "delay": 1,
+      "exciting": true,
+      "source": 1,
+      "target": 2
+    },
+    {
+      "weight": 108,
+      "delay": 14,
+      "exciting": true,
+      "source": 2,
+      "target": 282
+    },
+    {
+      "weight": 109,
+      "delay": 2,
+      "exciting": false,
+      "source": 2,
+      "target": 1
+    },
+    {
+      "weight": 87,
+      "delay": 10,
+      "exciting": false,
+      "source": 2,
+      "target": 2
+    },
+    {
+      "weight": 87,
+      "delay": 12,
+      "exciting": true,
+      "source": 282,
+      "target": 0
+    },
+    {
+      "weight": 103,
+      "delay": 3,
+      "exciting": false,
+      "source": 282,
+      "target": 282
+    },
+    {
+      "weight": 120,
+      "delay": 4,
+      "exciting": false,
+      "source": 282,
+      "target": 1
+    }
+  ]
+}

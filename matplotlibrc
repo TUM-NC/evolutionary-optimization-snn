@@ -1,0 +1,6 @@
+pgf.rcfonts : False
+text.usetex: True
+font.family: "serif"
+font.serif: []
+font.sans-serif: ["DejaVu Sans"]
+lines.linewidth: 1

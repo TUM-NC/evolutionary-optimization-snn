@@ -1,0 +1,17 @@
+._*
+.DS_Store
+
+.idea/
+var/
+output/
+
+.pytest_cache/
+.ipynb_checkpoints/
+__pycache__/
+
+computations/*
+
+*.pgf
+*.png
+*.csv
+*.tex

@@ -1,0 +1,19 @@
+name: master
+channels:
+  - conda-forge
+  - anaconda
+dependencies:
+  - python=3.8
+  - brian2
+  - matplotlib
+  - ruamel.yaml
+  - black
+  - pre-commit
+  - flake8
+  - networkx
+  - jupyter
+  - scikit-learn
+  - gym-all
+  - lava
+  - tabulate
+  - tikzplotlib

@@ -1,0 +1,28 @@
+generate_hidden_neurons_min: 0
+generate_hidden_neurons_max: 5
+generate_synapses_min: 3
+generate_synapses_max: 6
+number_of_mutations: 7 # Amount of mutations to apply, for a single network
+neuron_mutations: !!set # Which mutations can be applied to neurons
+  threshold:
+synapse_mutations: !!set # Which mutations can be applied to synapses
+  delay:
+  weight:
+  exciting:
+mutation_rates: # Probability of mutations to happen
+  add_node: 0.09
+  delete_node: 0.07
+  add_edge: 0.16
+  delete_edge: 0.14
+  node_param: 0.27
+  edge_param: 0.27
+reproduction_rates: # Probabilities to apply mutation/crossover/merge
+  mutation: 0.9
+  crossover: 0.1
+  merge: 0
+selection_type: tournament
+selection_arguments: {} # set custom arguments for the selection, e.g. k and p for tournament_selection
+random_factor: 0.1 # introduce this percentage of new networks into the population in each epoch
+num_best: 3 # keep this amount of best networks for new population
+population_size: 500 # amount of networks in each population
+num_generations: 100 # amount of epochs to simulate
